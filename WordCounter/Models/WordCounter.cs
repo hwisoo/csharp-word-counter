@@ -5,6 +5,18 @@ namespace WordMaster
     public string UserInputWord = "cat";
     public string UserInputSentence = "The cat house";
     public int counter = 0;
+
+
+    public bool MatchesWord(string word)
+    {
+      return word == UserInputWord;
+    }
+
+    public bool MatchesSentence(string sentence)
+    {
+      return sentence == UserInputSentence;
+    }
+
     public bool CreateWordArray(string sentence)
     {
       string[] Arr = UserInputSentence.Split(' ');
@@ -24,9 +36,12 @@ namespace WordMaster
       return counter==1;
     }
 
-    public bool MatchesWord(string word)
+    public bool OutputMessage(string message)
     {
-      return word == UserInputWord;
+      string newMessage = UserInputWord;
+      return newMessage == message;
     }
+
+    
   }
 }
