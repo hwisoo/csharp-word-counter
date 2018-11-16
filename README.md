@@ -43,7 +43,7 @@ no known bugs
 
 ## Support and contact details
 
-
+_Please contact me at hwisoocho@gmail.com or visit my Github at https://github.com/hwisoo_
 
 ## Technologies Used
 

@@ -38,7 +38,7 @@ namespace WordMaster
 
     public bool OutputMessage(string message)
     {
-      string newMessage = UserInputWord;
+      string newMessage = UserInputWord + "appears 1 time";
       return newMessage == message;
     }
 
