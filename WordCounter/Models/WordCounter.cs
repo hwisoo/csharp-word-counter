@@ -7,14 +7,16 @@ namespace WordMaster
 
     public bool CreateWordArray(string sentence)
     {
-      string[] Arr = UserInputSentence.Split(" ");
-      string[] Arr2 = sentence.Split(" ");
-      return Arr.Length == Arr2.Length;
+      string[] Arr = UserInputSentence.Split(' ');
+      string[] Arr2 = sentence.Split(' ');
+      return (Arr.Length == 3 && Arr2.Length ==3);
     }
+
+    
 
     public bool MatchesWord(string word)
     {
-      return word == UserInput;
+      return word == UserInputWord;
     }
   }
 }
