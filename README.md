@@ -10,18 +10,18 @@ A C# program, that takes a word and a sentence from user input and then checks h
 
 ## Specifications
   * The program gathers a word from user input.
-    - App : ["Please enter a word"]
+    - App : "Please enter a word"
     - Example User Input : ["cat"]
    
-   * The program gathers a sentence from user input.
-    - App : ["Please enter a sentence"]
+  * The program gathers a sentence from user input.
+    - App : "Please enter a sentence"
     - Example User Input : ["The cat likes cat food"]
 
-   * The program converts the sentence into an array of words.
+  * The program converts the sentence into an array of words.
     - Example Sentence : ["The cat likes cat food"]
     - Example Array : ["The", "cat", "likes", "cat", "food"]
   
-   * The program loops through the array and checks for matches.
+  * The program loops through the array and checks for matches.
     - Example Array : ["The", "cat", "likes", "cat", "food"]
     - Result: Array index[1] and [2] matches the word. There are two matches.
 
